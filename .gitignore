@@ -16,7 +16,7 @@ node_modules/
 *.DS_Store
 *.sql
 wp-admin/
-wp-includes
+wp-includes/
 wp-content/themes/twentyfifteen
 wp-content/themes/twentyfourteen
 wp-content/themes/twentythirteen
