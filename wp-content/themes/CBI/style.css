@@ -1,0 +1,1512 @@
+/*!
+Theme Name:  CBI
+Theme URI: http://meshfresh.com
+Author: MESH Design and Development
+Author URI:  http://meshfresh.com
+Description:  Capitol Business Interiors
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+/* #Reset  (Inspired by E. Meyers)
+================================================== */
+@import url("assets/libs/font-awesome-4.1.0/css/font-awesome.min.css");
+/* line 3, assets/sass/_reset.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 10, assets/sass/_reset.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 12, assets/sass/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 14, assets/sass/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 16, assets/sass/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 18, assets/sass/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 22, assets/sass/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 1;
+}
+
+/* Table of Content
+==================================================
+	#Imports
+	#Variables
+	#Reset
+	#Basic Styles
+	#Images
+	#Buttons
+	#Tabs
+	#Forms
+	#Misc */
+/* COMPASS IMPORTS
+================================================= */
+/* VARIABLES
+================================================= */
+/*
+
+Provide variables for all colors and fonts. Examples:
+
+$red: #E31B23;
+$minion:"minion-pro";
+
+*/
+/* #Basic Styles
+================================================== */
+/* line 43, assets/sass/_base.scss */
+.black-bg {
+  background-color: #000000;
+}
+
+/* #Buttons
+================================================== */
+/* #Forms
+================================================== */
+/* #Forms
+================================================== */
+/* #Images
+================================================== */
+/* line 71, assets/sass/_base.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* WordPress Image Styles
+   ========================================================================== */
+/* line 78, assets/sass/_base.scss */
+.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+/* line 79, assets/sass/_base.scss */
+.aligncenter, div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+
+/* line 80, assets/sass/_base.scss */
+.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+
+/* line 81, assets/sass/_base.scss */
+.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+/* line 82, assets/sass/_base.scss */
+.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+
+/* line 83, assets/sass/_base.scss */
+a img.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+
+/* line 84, assets/sass/_base.scss */
+a img.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+/* line 85, assets/sass/_base.scss */
+a img.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+/* line 86, assets/sass/_base.scss */
+a img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 87, assets/sass/_base.scss */
+.wp-caption {
+  background: #FFF;
+  max-width: 96%;
+  padding: 5px 3px 10px;
+  text-align: center;
+}
+
+/* line 88, assets/sass/_base.scss */
+.wp-caption.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+/* line 89, assets/sass/_base.scss */
+.wp-caption.alignleft {
+  margin: 5px 20px 20px 0;
+}
+
+/* line 90, assets/sass/_base.scss */
+.wp-caption.alignright {
+  margin: 5px 0 20px 20px;
+}
+
+/* line 91, assets/sass/_base.scss */
+.wp-caption img {
+  border: 0 none;
+  height: auto;
+  margin: 0;
+  max-width: 98.5%;
+  padding: 0;
+  width: auto;
+}
+
+/* line 92, assets/sass/_base.scss */
+.wp-caption p.wp-caption-text, .gallery-caption {
+  font-size: 11px;
+  line-height: 17px;
+  margin: 0;
+  padding: 0 4px 5px;
+}
+
+/* line 95, assets/sass/_base.scss */
+.add-bottom {
+  margin-bottom: 20px !important;
+}
+
+/* Tables
+================================================== */
+/* line 103, assets/sass/_base.scss */
+table {
+  width: 100%;
+  padding: 20px 0 20px 0;
+}
+/* line 106, assets/sass/_base.scss */
+table th {
+  padding: 8px 2px;
+  font-weight: bold;
+  font-size: 14px;
+  border-bottom: 2px solid #000000;
+  border-right: 30px solid #fff;
+  border-left: 30px solid #fff;
+  color: #000000;
+}
+/* line 116, assets/sass/_base.scss */
+table td {
+  padding: 12px 2px 0px 2px;
+  border-right: 30px solid #fff;
+  border-left: 30px solid #fff;
+  color: #000000;
+}
+
+/* Imported Fonts
+================================================== */
+/* #Typography
+================================================== */
+/* line 12, assets/sass/_typography.scss */
+html, body {
+  font-family: "proxima-nova",sans-serif;
+  color: #000000;
+  -webkit-font-smoothing: antialiased;
+  /* Fix for webkit rendering */
+  -webkit-text-size-adjust: 100%;
+  font-size: 14px;
+  line-height: 1.357;
+  letter-spacing: 0.04em;
+}
+
+/* line 23, assets/sass/_typography.scss */
+h1 {
+  font-family: "proxima-nova-condensed";
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 1.21;
+  color: #000000;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding-bottom: 19px;
+}
+
+/* line 34, assets/sass/_typography.scss */
+h2 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.3125;
+  color: #000000;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* line 42, assets/sass/_typography.scss */
+h3 {
+  font-family: "proxima-nova-condensed";
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.3125;
+  color: #000000;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* line 51, assets/sass/_typography.scss */
+h4 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.357;
+  color: #000000;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* line 59, assets/sass/_typography.scss */
+h5 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.357;
+  color: #000000;
+  letter-spacing: 0.04em;
+}
+
+/* line 67, assets/sass/_typography.scss */
+h6 {
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 1.357;
+  color: #000000;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* line 78, assets/sass/_typography.scss */
+p {
+  margin: 0 0 19px 0;
+}
+
+/* line 79, assets/sass/_typography.scss */
+p img {
+  margin: 0;
+}
+
+/* line 82, assets/sass/_typography.scss */
+em {
+  font-style: italic;
+}
+
+/* line 83, assets/sass/_typography.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 87, assets/sass/_typography.scss */
+blockquote, blockquote p {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.3125;
+  color: #000000;
+  letter-spacing: 0.04em;
+  font-style: italic;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+/* #Links
+================================================== */
+/* line 105, assets/sass/_typography.scss */
+a {
+  color: #d1202f;
+  text-decoration: none;
+}
+
+/* line 106, assets/sass/_typography.scss */
+a:hover, a:focus {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+/* line 107, assets/sass/_typography.scss */
+p a, p a:visited {
+  color: #d1202f;
+}
+
+/* #Lists
+================================================== */
+/* line 112, assets/sass/_typography.scss */
+ul, ol {
+  margin-bottom: 0px;
+}
+
+/* line 113, assets/sass/_typography.scss */
+ul {
+  list-style: circle outside;
+}
+
+/* line 114, assets/sass/_typography.scss */
+ol {
+  list-style: decimal;
+}
+
+/* line 115, assets/sass/_typography.scss */
+ol, ul, ul.square, ul.circle, ul.disc {
+  margin-left: 30px;
+}
+
+/* line 116, assets/sass/_typography.scss */
+ul.square {
+  list-style: square outside;
+}
+
+/* line 117, assets/sass/_typography.scss */
+ul.circle {
+  list-style: circle outside;
+}
+
+/* line 118, assets/sass/_typography.scss */
+ul.disc {
+  list-style: disc outside;
+}
+
+/* line 119, assets/sass/_typography.scss */
+ul ul, ul ol,
+ol ol, ol ul {
+  margin: 0 0 0 20px;
+  font-size: 100%;
+}
+
+/* line 121, assets/sass/_typography.scss */
+ul ul li, ul ol li,
+ol ol li, ol ul li {
+  margin-bottom: 0px;
+}
+
+/* line 123, assets/sass/_typography.scss */
+li {
+  line-height: 21px;
+  margin-bottom: 0px;
+}
+
+/* Table of Contents
+==================================================
+    #Import Base Style 
+    #Variables & Mixins
+    #Base 960 Grid
+    #Tablet (Portrait)
+    #Mobile (Portrait)
+    #Mobile (Landscape)
+    #Clearing
+    #Import Custom Layout */
+/* #Variables & Mixins
+================================================== */
+/* #Base 960 Grid
+================================================== */
+/* line 54, assets/sass/_grid.scss */
+.container, .container-header {
+  position: relative;
+  margin: 0 auto;
+  width: 1020px;
+  /* Offsets */
+}
+@media only screen and (max-width: 1240px) {
+  /* line 54, assets/sass/_grid.scss */
+  .container, .container-header {
+    margin: 0;
+    padding: 0 0 0 100px;
+  }
+}
+/* line 60, assets/sass/_grid.scss */
+.container .row, .container-header .row {
+  margin-bottom: 20px;
+}
+/* line 61, assets/sass/_grid.scss */
+.container .column, .container .columns, .container-header .column, .container-header .columns {
+  float: left;
+  display: inline;
+  margin-left: 12.5px;
+  margin-right: 12.5px;
+  /* Base Grid */
+}
+/* line 67, assets/sass/_grid.scss */
+.container .column.alpha, .container .columns.alpha, .container-header .column.alpha, .container-header .columns.alpha {
+  margin-left: 0;
+}
+/* line 68, assets/sass/_grid.scss */
+.container .column.omega, .container .columns.omega, .container-header .column.omega, .container-header .columns.omega {
+  margin-right: 0;
+}
+/* line 71, assets/sass/_grid.scss */
+.container .column.one, .container .columns.one, .container-header .column.one, .container-header .columns.one {
+  width: 60px;
+}
+/* line 72, assets/sass/_grid.scss */
+.container .column.two, .container .columns.two, .container-header .column.two, .container-header .columns.two {
+  width: 145px;
+}
+/* line 73, assets/sass/_grid.scss */
+.container .column.three, .container .columns.three, .container-header .column.three, .container-header .columns.three {
+  width: 230px;
+}
+/* line 74, assets/sass/_grid.scss */
+.container .column.four, .container .columns.four, .container-header .column.four, .container-header .columns.four {
+  width: 315px;
+}
+/* line 75, assets/sass/_grid.scss */
+.container .column.five, .container .columns.five, .container-header .column.five, .container-header .columns.five {
+  width: 400px;
+}
+/* line 76, assets/sass/_grid.scss */
+.container .column.six, .container .columns.six, .container-header .column.six, .container-header .columns.six {
+  width: 485px;
+}
+/* line 77, assets/sass/_grid.scss */
+.container .column.seven, .container .columns.seven, .container-header .column.seven, .container-header .columns.seven {
+  width: 570px;
+}
+/* line 78, assets/sass/_grid.scss */
+.container .column.eight, .container .columns.eight, .container-header .column.eight, .container-header .columns.eight {
+  width: 655px;
+}
+/* line 79, assets/sass/_grid.scss */
+.container .column.nine, .container .columns.nine, .container-header .column.nine, .container-header .columns.nine {
+  width: 740px;
+}
+/* line 80, assets/sass/_grid.scss */
+.container .column.ten, .container .columns.ten, .container-header .column.ten, .container-header .columns.ten {
+  width: 825px;
+}
+/* line 81, assets/sass/_grid.scss */
+.container .column.eleven, .container .columns.eleven, .container-header .column.eleven, .container-header .columns.eleven {
+  width: 910px;
+}
+/* line 82, assets/sass/_grid.scss */
+.container .column.twelve, .container .columns.twelve, .container-header .column.twelve, .container-header .columns.twelve {
+  width: 995px;
+}
+/* line 83, assets/sass/_grid.scss */
+.container .column.thirteen, .container .columns.thirteen, .container-header .column.thirteen, .container-header .columns.thirteen {
+  width: 1080px;
+}
+/* line 84, assets/sass/_grid.scss */
+.container .column.fourteen, .container .columns.fourteen, .container-header .column.fourteen, .container-header .columns.fourteen {
+  width: 1165px;
+}
+/* line 85, assets/sass/_grid.scss */
+.container .column.fifteen, .container .columns.fifteen, .container-header .column.fifteen, .container-header .columns.fifteen {
+  width: 1250px;
+}
+/* line 86, assets/sass/_grid.scss */
+.container .column.sixteen, .container .columns.sixteen, .container-header .column.sixteen, .container-header .columns.sixteen {
+  width: 1335px;
+}
+/* line 88, assets/sass/_grid.scss */
+.container .column.one-third, .container .columns.one-third, .container-header .column.one-third, .container-header .columns.one-third {
+  width: 315px;
+}
+/* line 89, assets/sass/_grid.scss */
+.container .column.two-thirds, .container .columns.two-thirds, .container-header .column.two-thirds, .container-header .columns.two-thirds {
+  width: 655px;
+}
+/* line 93, assets/sass/_grid.scss */
+.container .column img, .container .columns img, .container-header .column img, .container-header .columns img {
+  max-width: 100%;
+}
+/* line 96, assets/sass/_grid.scss */
+.container .offset-by-one, .container-header .offset-by-one {
+  padding-left: 85px;
+}
+/* line 97, assets/sass/_grid.scss */
+.container .offset-by-two, .container-header .offset-by-two {
+  padding-left: 170px;
+}
+/* line 98, assets/sass/_grid.scss */
+.container .offset-by-three, .container-header .offset-by-three {
+  padding-left: 255px;
+}
+/* line 99, assets/sass/_grid.scss */
+.container .offset-by-four, .container-header .offset-by-four {
+  padding-left: 340px;
+}
+/* line 100, assets/sass/_grid.scss */
+.container .offset-by-five, .container-header .offset-by-five {
+  padding-left: 425px;
+}
+/* line 101, assets/sass/_grid.scss */
+.container .offset-by-six, .container-header .offset-by-six {
+  padding-left: 510px;
+}
+/* line 102, assets/sass/_grid.scss */
+.container .offset-by-seven, .container-header .offset-by-seven {
+  padding-left: 595px;
+}
+/* line 103, assets/sass/_grid.scss */
+.container .offset-by-eight, .container-header .offset-by-eight {
+  padding-left: 680px;
+}
+/* line 104, assets/sass/_grid.scss */
+.container .offset-by-nine, .container-header .offset-by-nine {
+  padding-left: 765px;
+}
+/* line 105, assets/sass/_grid.scss */
+.container .offset-by-ten, .container-header .offset-by-ten {
+  padding-left: 850px;
+}
+/* line 106, assets/sass/_grid.scss */
+.container .offset-by-eleven, .container-header .offset-by-eleven {
+  padding-left: 935px;
+}
+/* line 107, assets/sass/_grid.scss */
+.container .offset-by-twelve, .container-header .offset-by-twelve {
+  padding-left: 1020px;
+}
+/* line 108, assets/sass/_grid.scss */
+.container .offset-by-thirteen, .container-header .offset-by-thirteen {
+  padding-left: 1105px;
+}
+/* line 109, assets/sass/_grid.scss */
+.container .offset-by-fourteen, .container-header .offset-by-fourteen {
+  padding-left: 1190px;
+}
+/* line 110, assets/sass/_grid.scss */
+.container .offset-by-fifteen, .container-header .offset-by-fifteen {
+  padding-left: 1275px;
+}
+
+/* line 112, assets/sass/_grid.scss */
+.container-header {
+  margin: 0;
+  padding: 0 0 0 100px;
+}
+
+/* #Clearing
+================================================== */
+/* Self Clearing Goodness */
+/* line 120, assets/sass/_grid.scss */
+.container:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* Use clearfix class on parent to clear nested columns,
+or wrap each row of columns in a <div class="row"> */
+/* line 124, assets/sass/_grid.scss */
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* line 134, assets/sass/_grid.scss */
+.row:after,
+.clearfix:after {
+  clear: both;
+}
+
+/* line 137, assets/sass/_grid.scss */
+.row,
+.clearfix {
+  zoom: 1;
+}
+
+/* You can also use a <br class="clear" /> to clear columns */
+/* line 142, assets/sass/_grid.scss */
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* Table of Content
+==================================================
+
+
+
+/* Header Styles
+================================================== */
+/* line 10, assets/sass/_layout.scss */
+header.home {
+  height: 800px;
+}
+/* line 14, assets/sass/_layout.scss */
+header.home .bg {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  max-width: none;
+  left: -550px;
+}
+/* line 22, assets/sass/_layout.scss */
+header.interior {
+  height: 600px;
+}
+/* line 25, assets/sass/_layout.scss */
+header.interior .interior-menu {
+  position: fixed;
+  z-index: 5;
+}
+/* line 30, assets/sass/_layout.scss */
+header.interior .bg {
+  position: fixed;
+  z-index: 5;
+  top: -435px;
+  max-width: none;
+  left: -255px;
+  background: black;
+  width: 700px;
+  height: 1000px;
+  transform: rotate(49deg);
+  -webkit-transform: rotate(49deg);
+  -moz-transform: rotate(49deg);
+}
+
+/* line 47, assets/sass/_layout.scss */
+.logo {
+  height: 125px;
+  padding-top: 45px;
+}
+/* line 50, assets/sass/_layout.scss */
+.logo .logo-block, .logo .logo-name {
+  display: inline;
+}
+/* line 51, assets/sass/_layout.scss */
+.logo .logo-block {
+  width: 122px;
+  height: 170px;
+}
+/* line 52, assets/sass/_layout.scss */
+.logo a:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+
+/* Navigation Styles
+================================================== */
+/* line 62, assets/sass/_layout.scss */
+.main-navigation ul {
+  padding-top: 45px;
+  padding-left: 60px;
+  list-style-type: none;
+  width: 135px;
+  text-transform: uppercase;
+  margin: 0;
+}
+/* line 70, assets/sass/_layout.scss */
+.main-navigation ul li {
+  position: relative;
+  padding: 0;
+  margin: 5px 0 2px 0;
+}
+/* line 74, assets/sass/_layout.scss */
+.main-navigation ul li a {
+  display: block;
+  overflow: auto;
+  color: white;
+  text-decoration: none;
+  padding: 0 6px 0 6px;
+  font-weight: bold;
+}
+/* line 82, assets/sass/_layout.scss */
+.main-navigation ul li a:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+  color: #d1202f;
+}
+/* line 88, assets/sass/_layout.scss */
+.main-navigation ul li a.hover {
+  color: #d1202f;
+}
+/* line 89, assets/sass/_layout.scss */
+.main-navigation ul li.current-menu-item a, .main-navigation ul li.current-page-ancestor a {
+  background-color: #ffffff;
+  color: #000000;
+  display: inline;
+}
+/* line 93, assets/sass/_layout.scss */
+.main-navigation ul li.current-menu-item a:hover, .main-navigation ul li.current-page-ancestor a:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+  color: #d1202f;
+}
+/* line 102, assets/sass/_layout.scss */
+.main-navigation ul li ul {
+  padding-top: 0;
+  position: absolute;
+  width: 155px;
+  top: 0;
+  left: 125px;
+  display: none;
+}
+
+/* Homepage Slides
+================================================== */
+/* line 126, assets/sass/_layout.scss */
+.slider .rslides, .slider .homeslides {
+  position: absolute;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  z-index: -1;
+  height: 800px;
+  top: 0px;
+}
+/* line 138, assets/sass/_layout.scss */
+.slider .rslides li, .slider .homeslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+@media only screen and (max-width: 1240px) {
+  /* line 138, assets/sass/_layout.scss */
+  .slider .rslides li, .slider .homeslides li {
+    width: 1240px;
+    height: 800px;
+  }
+}
+/* line 152, assets/sass/_layout.scss */
+.slider .rslides li:first-child, .slider .homeslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+}
+/* line 158, assets/sass/_layout.scss */
+.slider .rslides img, .slider .homeslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+}
+@media only screen and (max-width: 1240px) {
+  /* line 158, assets/sass/_layout.scss */
+  .slider .rslides img, .slider .homeslides img {
+    width: 1240px;
+    height: 800px;
+  }
+}
+/* line 172, assets/sass/_layout.scss */
+.slider ul.rslides_tabs {
+  list-style-type: none;
+  width: 600px;
+  position: relative;
+  top: -55px;
+  margin: 0 auto;
+  z-index: 5;
+  text-align: center;
+}
+/* line 182, assets/sass/_layout.scss */
+.slider ul.rslides_tabs li {
+  display: inline-block;
+  margin-right: 20px;
+}
+/* line 188, assets/sass/_layout.scss */
+.slider ul.rslides_tabs li a {
+  color: #000000;
+}
+/* line 190, assets/sass/_layout.scss */
+.slider ul.rslides_tabs li a:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+/* line 193, assets/sass/_layout.scss */
+.slider ul.rslides_tabs li.rslides_here a {
+  color: #d1202f;
+}
+/* line 195, assets/sass/_layout.scss */
+.slider ul.rslides_tabs li.rslides_here a:hover, .slider ul.rslides_tabs li.rslides_here a:focus, .slider ul.rslides_tabs li.rslides_here a:active {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+/* line 200, assets/sass/_layout.scss */
+.slider a.rslides_nav {
+  color: #000000;
+  font-size: 40px;
+}
+/* line 202, assets/sass/_layout.scss */
+.slider a.rslides_nav:hover {
+  color: #d1202f;
+}
+/* line 204, assets/sass/_layout.scss */
+.slider a.rslides_nav.prev {
+  position: absolute;
+  top: 730px;
+  left: 10%;
+}
+/* line 205, assets/sass/_layout.scss */
+.slider a.rslides_nav.next {
+  position: absolute;
+  top: 730px;
+  left: 90%;
+}
+
+/* Homepage Styles
+================================================== */
+/* line 215, assets/sass/_layout.scss */
+.home-row {
+  margin-top: 50px;
+}
+
+/* line 221, assets/sass/_layout.scss */
+.home-box .service-row {
+  padding: 10px 50px;
+  background: black;
+}
+/* line 227, assets/sass/_layout.scss */
+.home-box .service-img {
+  display: inline;
+  padding-right: 30px;
+}
+/* line 231, assets/sass/_layout.scss */
+.home-box .service {
+  display: inline;
+  position: relative;
+  top: -20px;
+}
+/* line 235, assets/sass/_layout.scss */
+.home-box .service a {
+  color: #ffffff;
+  font-family: "proxima-nova-condensed";
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+/* line 244, assets/sass/_layout.scss */
+.home-box .service a:hover {
+  color: #d1202f;
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+
+/* line 249, assets/sass/_layout.scss */
+.home-borders {
+  margin-top: 60px;
+  border-top: 20px solid #000000;
+  border-bottom: 20px solid #000000;
+  height: 246px;
+  position: relative;
+}
+/* line 257, assets/sass/_layout.scss */
+.home-borders .home-borders-content {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 273px;
+  position: relative;
+  overflow: hidden;
+  display: inline;
+  float: left;
+  overflow: hidden;
+}
+/* line 264, assets/sass/_layout.scss */
+.home-borders .home-borders-content img {
+  margin: 0;
+  padding: 0;
+}
+/* line 265, assets/sass/_layout.scss */
+.home-borders .home-borders-content p {
+  margin: 0;
+}
+/* line 270, assets/sass/_layout.scss */
+.home-borders .home-borders-content.right {
+  margin-left: 24px;
+}
+/* line 275, assets/sass/_layout.scss */
+.home-borders .home-borders-content:hover .filter {
+  left: 0px;
+}
+/* line 279, assets/sass/_layout.scss */
+.home-borders .home-borders-content .filter {
+  background-color: black;
+  position: absolute;
+  width: 273px;
+  height: 227px;
+  left: -273px;
+  top: 0px;
+  transition: all 0.5s ease;
+  display: table;
+}
+/* line 292, assets/sass/_layout.scss */
+.home-borders .home-borders-content .filter-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  margin: 10px;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-family: "proxima-nova-condensed";
+}
+/* line 301, assets/sass/_layout.scss */
+.home-borders .home-borders-content .filter-text a {
+  color: white;
+}
+/* line 303, assets/sass/_layout.scss */
+.home-borders .home-borders-content .filter-text a:hover {
+  color: #d1202f;
+}
+
+/* line 315, assets/sass/_layout.scss */
+.home-connect {
+  margin-top: 60px;
+}
+/* line 317, assets/sass/_layout.scss */
+.home-connect .content-block-header {
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background: url("assets/img/stripes.png") repeat;
+}
+/* line 322, assets/sass/_layout.scss */
+.home-connect .content-block-header h3 {
+  background: #000000;
+  margin: 0px 15px 0px 15px;
+  padding: 20px 20px 20px 20px;
+  color: #ffffff;
+  font-family: "proxima-nova-condensed";
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 1.21;
+  text-transform: uppercase;
+  text-align: center;
+}
+/* line 336, assets/sass/_layout.scss */
+.home-connect .social-icon {
+  width: 90px;
+  height: 90px;
+  margin: 20px 0px 0px 21px;
+  background: url("assets/img/social-bg.png") no-repeat;
+  display: inline;
+  float: left;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  -ms-transition: -ms-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+/* line 342, assets/sass/_layout.scss */
+.home-connect .social-icon.first {
+  margin-left: 0px;
+}
+/* line 343, assets/sass/_layout.scss */
+.home-connect .social-icon a {
+  color: #ffffff;
+  font-size: 40px;
+}
+/* line 346, assets/sass/_layout.scss */
+.home-connect .social-icon a:hover {
+  color: #d1202f;
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+/* line 350, assets/sass/_layout.scss */
+.home-connect .social-icon a i {
+  display: block;
+  text-align: center;
+  margin-top: 25px;
+}
+/* line 362, assets/sass/_layout.scss */
+.home-connect .social-icon:hover {
+  transform: rotateZ(360deg);
+  -ms-transform: rotateZ(360deg);
+  -webkit-transform: rotateZ(360deg);
+}
+
+/* PAGE Styles
+================================================== */
+/* line 379, assets/sass/_layout.scss */
+.page-header {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  z-index: -1;
+  height: 250px;
+  top: 0px;
+}
+@media only screen and (max-width: 1240px) {
+  /* line 379, assets/sass/_layout.scss */
+  .page-header {
+    width: 1240px;
+    height: 800px;
+  }
+}
+/* line 392, assets/sass/_layout.scss */
+.page-header img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+}
+
+/* line 403, assets/sass/_layout.scss */
+.page-title {
+  width: 100%;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  background: url("assets/img/stripes.png") repeat;
+  position: relative;
+  top: -350px;
+  height: 54px;
+  z-index: -1;
+}
+/* line 412, assets/sass/_layout.scss */
+.page-title h1 {
+  background: #000000;
+  margin: 0px 0px 0px 0px;
+  padding: 10px 20px 10px 20px;
+  color: #ffffff;
+  font-family: "proxima-nova-condensed";
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 1.21;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 426, assets/sass/_layout.scss */
+.page-content {
+  width: 100%;
+  position: relative;
+  top: -350px;
+  z-index: 1;
+  margin-bottom: -330px;
+}
+/* line 433, assets/sass/_layout.scss */
+.page-content .breadcrumbs {
+  margin: 10px 0 50px 0;
+  text-align: right;
+  font-size: 12px;
+}
+/* line 438, assets/sass/_layout.scss */
+.page-content .breadcrumbs a {
+  color: #000000;
+}
+/* line 440, assets/sass/_layout.scss */
+.page-content .breadcrumbs a:hover {
+  color: #d1202f;
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+/* line 446, assets/sass/_layout.scss */
+.page-content .breadcrumbs a:first-child {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* line 451, assets/sass/_layout.scss */
+.page-content .breadcrumbs a:nth-child(3) {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+/* line 456, assets/sass/_layout.scss */
+.page-content .breadcrumbs a:nth-child(5) {
+  font-size: 11px;
+  text-transform: none;
+}
+/* line 461, assets/sass/_layout.scss */
+.page-content .breadcrumbs i {
+  padding: 0 3px 0 3px;
+}
+/* line 467, assets/sass/_layout.scss */
+.page-content ul.subnav {
+  list-style-type: none;
+  margin: 0;
+}
+/* line 470, assets/sass/_layout.scss */
+.page-content ul.subnav li {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 3px 0 2px 0;
+}
+/* line 475, assets/sass/_layout.scss */
+.page-content ul.subnav li a {
+  padding-left: 5px;
+  display: block;
+  color: #000000;
+}
+/* line 479, assets/sass/_layout.scss */
+.page-content ul.subnav li a:hover {
+  color: #d1202f;
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+/* line 484, assets/sass/_layout.scss */
+.page-content ul.subnav li ul {
+  display: none;
+  margin-left: 18px;
+  list-style-type: none;
+}
+/* line 488, assets/sass/_layout.scss */
+.page-content ul.subnav li ul li {
+  text-transform: none;
+}
+/* line 490, assets/sass/_layout.scss */
+.page-content ul.subnav li ul li.current_page_item {
+  background-color: #000000;
+}
+/* line 492, assets/sass/_layout.scss */
+.page-content ul.subnav li ul li.current_page_item a {
+  color: #ffffff;
+}
+/* line 494, assets/sass/_layout.scss */
+.page-content ul.subnav li ul li.current_page_item a:hover {
+  color: #d1202f;
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+/* line 505, assets/sass/_layout.scss */
+.page-content ul.subnav > li.current_page_item {
+  background-color: #000000;
+}
+/* line 507, assets/sass/_layout.scss */
+.page-content ul.subnav > li.current_page_item a {
+  padding-left: 5px;
+  display: block;
+  color: #ffffff;
+}
+/* line 511, assets/sass/_layout.scss */
+.page-content ul.subnav > li.current_page_item a:hover {
+  color: #d1202f;
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+/* line 516, assets/sass/_layout.scss */
+.page-content ul.subnav > li.current_page_item ul {
+  display: block;
+  margin-left: 0px;
+  background-color: white;
+}
+/* line 520, assets/sass/_layout.scss */
+.page-content ul.subnav > li.current_page_item ul li a {
+  color: #000000;
+  margin-left: 18px;
+}
+/* line 523, assets/sass/_layout.scss */
+.page-content ul.subnav > li.current_page_item ul li a:hover {
+  color: #d1202f;
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+/* line 531, assets/sass/_layout.scss */
+.page-content ul.subnav > li.current_page_ancestor {
+  background-color: white;
+}
+/* line 534, assets/sass/_layout.scss */
+.page-content ul.subnav > li.current_page_ancestor a {
+  padding-left: 5px;
+  display: block;
+  color: black;
+}
+/* line 538, assets/sass/_layout.scss */
+.page-content ul.subnav > li.current_page_ancestor a:hover {
+  color: #d1202f;
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+/* line 543, assets/sass/_layout.scss */
+.page-content ul.subnav > li.current_page_ancestor ul {
+  display: block;
+  margin-left: 0px;
+  background-color: white;
+}
+/* line 547, assets/sass/_layout.scss */
+.page-content ul.subnav > li.current_page_ancestor ul li a {
+  color: #000000;
+  margin-left: 18px;
+}
+/* line 550, assets/sass/_layout.scss */
+.page-content ul.subnav > li.current_page_ancestor ul li a:hover {
+  color: #d1202f;
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+/* line 555, assets/sass/_layout.scss */
+.page-content ul.subnav > li.current_page_ancestor ul li.current_page_item a {
+  color: white;
+}
+
+/* PAGE Slider
+================================================== */
+/* line 573, assets/sass/_layout.scss */
+.page-slider {
+  margin-bottom: -40px;
+}
+
+/* line 577, assets/sass/_layout.scss */
+.page-slides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 655px;
+  padding: 0;
+  margin: 0;
+  z-index: -1;
+  height: 400px;
+}
+
+/* line 589, assets/sass/_layout.scss */
+.page-slides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 655px;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+/* line 600, assets/sass/_layout.scss */
+.page-slides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+}
+
+/* line 606, assets/sass/_layout.scss */
+.page-slides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+}
+
+/* line 614, assets/sass/_layout.scss */
+ul.rslides_tabs {
+  list-style-type: none;
+  width: 600px;
+  position: relative;
+  top: -85px;
+  text-align: center;
+}
+/* line 622, assets/sass/_layout.scss */
+ul.rslides_tabs li {
+  display: inline-block;
+  margin-right: 20px;
+}
+/* line 628, assets/sass/_layout.scss */
+ul.rslides_tabs li a {
+  color: #000000;
+}
+/* line 630, assets/sass/_layout.scss */
+ul.rslides_tabs li a:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+/* line 633, assets/sass/_layout.scss */
+ul.rslides_tabs li.rslides_here a {
+  color: #d1202f;
+}
+/* line 635, assets/sass/_layout.scss */
+ul.rslides_tabs li.rslides_here a:hover, ul.rslides_tabs li.rslides_here a:focus, ul.rslides_tabs li.rslides_here a:active {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+
+/* line 640, assets/sass/_layout.scss */
+a.rslides_nav {
+  color: #000000;
+  font-size: 40px;
+}
+/* line 642, assets/sass/_layout.scss */
+a.rslides_nav:hover {
+  color: #d1202f;
+}
+/* line 644, assets/sass/_layout.scss */
+a.rslides_nav.prev {
+  position: relative;
+  top: -220px;
+  left: 20px;
+}
+/* line 645, assets/sass/_layout.scss */
+a.rslides_nav.next {
+  position: relative;
+  top: -220px;
+  left: 600px;
+}
+
+/* line 648, assets/sass/_layout.scss */
+.landing-block {
+  margin-bottom: 25px;
+}
+/* line 650, assets/sass/_layout.scss */
+.landing-block h3.landing-subtitle {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.357;
+  color: #000000;
+  letter-spacing: 0.04em;
+  text-transform: none;
+  border-bottom: 4px solid black;
+  margin-bottom: 10px;
+}
+/* line 661, assets/sass/_layout.scss */
+.landing-block a:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+
+/* line 667, assets/sass/_layout.scss */
+.no-hover:hover {
+  opacity: 0.7 !important;
+}
+
+/* FOOTER Styles
+================================================== */
+/* line 682, assets/sass/_layout.scss */
+.instagram {
+  margin-top: 55px;
+  margin-bottom: 30px;
+}
+/* line 685, assets/sass/_layout.scss */
+.instagram h6 {
+  padding-bottom: 16px;
+}
+
+/* line 689, assets/sass/_layout.scss */
+footer {
+  width: 100%;
+  background: #000000;
+  padding: 30px 0 20px 0;
+}
+/* line 696, assets/sass/_layout.scss */
+footer .footer-menu ul > li {
+  display: inline;
+  float: left;
+  padding: 0px 0px 20px 20px;
+  font-size: 11px;
+  line-height: 1.636;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  width: 110px;
+}
+/* line 706, assets/sass/_layout.scss */
+footer .footer-menu ul > li a {
+  color: white;
+}
+/* line 708, assets/sass/_layout.scss */
+footer .footer-menu ul > li a:hover {
+  color: #d1202f;
+}
+/* line 711, assets/sass/_layout.scss */
+footer .footer-menu ul > li ul {
+  width: 120px;
+  padding-left: 0;
+  margin: 0;
+}
+/* line 715, assets/sass/_layout.scss */
+footer .footer-menu ul > li ul li {
+  display: block;
+  width: 100%;
+  list-style-type: none;
+  padding: 5px 0px 0px 0px;
+  text-transform: none;
+}
+/* line 728, assets/sass/_layout.scss */
+footer .credits {
+  font-size: 11px;
+  line-height: 1.636;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+/* line 734, assets/sass/_layout.scss */
+footer .footer-social {
+  padding-bottom: 19px;
+}
+/* line 735, assets/sass/_layout.scss */
+footer .footer-social a {
+  color: white;
+  padding-left: 8px;
+  font-size: 14px;
+}
+/* line 737, assets/sass/_layout.scss */
+footer .footer-social a:hover {
+  color: #d1202f;
+}
+/* line 743, assets/sass/_layout.scss */
+footer .hayworth {
+  position: relative;
+  width: 195px;
+}
+
+/* line 751, assets/sass/_layout.scss */
+.tumblr_posts {
+  list-style-type: none;
+  margin-left: 12.5px;
+}
+/* line 755, assets/sass/_layout.scss */
+.tumblr_posts li {
+  float: left;
+  margin-right: 17px;
+}
+
+/* line 761, assets/sass/_layout.scss */
+.tumblr_photo {
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+  position: relative;
+}
+/* line 767, assets/sass/_layout.scss */
+.tumblr_photo img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/* line 779, assets/sass/_layout.scss */
+.tumblr_photo img.portrait {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+}
+
+/* line 788, assets/sass/_layout.scss */
+.tumblr_photo:hover {
+  opacity: 0.7;
+}
